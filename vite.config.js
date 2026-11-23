@@ -5,3 +5,8 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [react()],
 })
+
+export default defineConfig({
+  plugins: [react()],
+  base: '/itis3135-react/',
+})
